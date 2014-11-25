@@ -1,29 +1,40 @@
-# Object files
 *.o
-*.ko
-*.obj
-*.elf
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
+*~
 *.a
-*.la
-*.lo
+*.ko
+*.o.cmd
+*.cmd
+*.builtin
+*.order
+*Image
+*.s
+*.S
+*.cpio.d
+*.cpio
+*.d
+*.gzip
+*.mod.c
+*vmlinux
+.missing-syscalls.d
+.tmp_System.map
+.tmp_kallsyms1.S
+.tmp_kallsyms2.S
+.tmp_versions/
+.tmp_vmlinux1
+.tmp_vmlinux2
+System.map
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+arch/arm/boot/compressed/lib1funcs.S
+arch/arm/boot/compressed/piggy.gzip
+arch/arm/boot/compressed/vmlinux
+arch/arm/boot/compressed/vmlinux.lds
+arch/arm/kernel/vmlinux.lds
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+drivers/video/logo/logo_*.c
+drivers/tty/vt/consolemap_deftbl.c
+drivers/tty/vt/defkeymap.c
+drivers/video/logo/clut_vga16.c
+kernel/timeconst.h
+lib/crc32table.h
+lib/gen_crc32table
+usr/gen_init_cpio
