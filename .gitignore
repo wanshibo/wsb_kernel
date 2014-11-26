@@ -30,11 +30,11 @@ arch/arm/boot/compressed/vmlinux
 arch/arm/boot/compressed/vmlinux.lds
 arch/arm/kernel/vmlinux.lds
 
-drivers/video/logo/logo_*.c
-drivers/tty/vt/consolemap_deftbl.c
-drivers/tty/vt/defkeymap.c
-drivers/video/logo/clut_vga16.c
-kernel/timeconst.h
-lib/crc32table.h
-lib/gen_crc32table
-usr/gen_init_cpio
+#drivers/video/logo/logo_*.c
+#drivers/tty/vt/consolemap_deftbl.c
+#drivers/tty/vt/defkeymap.c
+#drivers/video/logo/clut_vga16.c
+#kernel/timeconst.h
+#lib/crc32table.h
+#lib/gen_crc32table
+#usr/gen_init_cpio
