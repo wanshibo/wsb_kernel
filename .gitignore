@@ -7,10 +7,10 @@
 *.builtin
 *.order
 *Image
-*.s
-*.S
-#*.cpio.d
-#*.cpio
+#*.s
+#*.S
+*.cpio.d
+*.cpio
 *.d
 *.gzip
 *.mod.c
