@@ -9,8 +9,8 @@
 *Image
 *.s
 *.S
-*.cpio.d
-*.cpio
+#*.cpio.d
+#*.cpio
 *.d
 *.gzip
 *.mod.c
